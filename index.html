@@ -12,22 +12,65 @@
             margin: 0;
             padding: 0;
             color: #333;
+            background: #e0e0e0; /* Changed background color */
         }
-        header, footer {
-            background: #f4f4f4;
+        header {
+            background: #0056b3;
+            color: #fff;
             padding: 1em;
             text-align: center;
+            border-bottom: 4px solid #004494;
+        }
+        footer {
+            background: #0056b3;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            border-top: 4px solid #004494;
         }
         section {
-            padding: 1em;
+            padding: 2em;
             margin: 0 auto;
             max-width: 800px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #0056b3;
         }
         h2 {
-            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 0.5em;
         }
         .resume-section {
             margin-bottom: 2em;
+        }
+        p {
+            margin: 0.5em 0;
+        }
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .skills-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills-list li {
+            background: #e9f5ff;
+            border: 1px solid #b3d7ff;
+            border-radius: 5px;
+            margin: 0.5em 0;
+            padding: 0.5em;
+        }
+        ul {
+            list-style-type: disc;
+            margin: 1em 0;
+            padding-left: 2em;
         }
     </style>
 </head>
@@ -51,25 +94,46 @@
         <p><strong>DevOps Intern</strong><br>
         <em>Dew Software, Fremont, California, United States</em><br>
         March 2024 - Present<br>
-        Extensive experience in complete SDLC for business applications, from initial design discussions to automated infrastructure building using Terraform and Ansible, with expertise in AWS and GCP services, including network, compute, database, storage, data analytics, Kubernetes, and serverless offerings. Proficient in building and automating infrastructure blueprints using Terraform and Ansible, ensuring efficient and reliable cloud environments. Responsible for designing and implementing CI/CD pipelines for both application and infrastructure code delivery, utilizing Jenkins and leveraging DevSecOps principles; experienced with GitLab CI/CD and GitHub Actions.</p>
+        Extensive experience in complete SDLC for business applications, from initial design discussions to automated infrastructure building using Terraform and Ansible, with expertise in AWS and GCP services, including network, compute, database, storage, data analytics, Kubernetes, and serverless offerings.</p>
+        <ul>
+            <li>Proficient in building and automating infrastructure blueprints using Terraform and Ansible, ensuring efficient and reliable cloud environments.</li>
+            <li>Responsible for designing and implementing CI/CD pipelines for both application and infrastructure code delivery, utilizing Jenkins and leveraging DevSecOps principles; experienced with GitLab CI/CD and GitHub Actions.</li>
+        </ul>
         
         <p><strong>Cloud Engineer II</strong><br>
         <em>Yupptv Pvt Ltd, Hyderabad, Telangana, India</em><br>
         September 2018 – July 2022<br>
-        Oversee the management of source code repositories and streamline the process of merging changes in GIT. Optimized the SQL queries of the Procurement and Dispatch Optimizer for increasing performance of the respective modules. Created data transformation and validation scripts to validate the client systems data (like SAP, and other ERPs). Mainly worked on Demand Planning, Procurement Optimizer, Dispatch Optimizer, Visual Analysis (KPIs and Charts) and Data Integration (Data Transformation). Administer GIT repositories, implement branching methods, and configure user access restrictions. Utilized Shell Scripts, Python, and JavaScript to automate the process of installing packages, setting up web servers, and configuring instances. Involved in setting up JIRA as a defect-tracking system and configuring various workflows, customizations, and plugins for the JIRA bug/issue tracker.</p>
+        Oversee the management of source code repositories and streamline the process of merging changes in GIT.</p>
+        <ul>
+            <li>Optimized the SQL queries of the Procurement and Dispatch Optimizer for increasing performance of the respective modules.</li>
+            <li>Created data transformation and validation scripts to validate the client systems data (like SAP, and other ERPs).</li>
+            <li>Mainly worked on Demand Planning, Procurement Optimizer, Dispatch Optimizer, Visual Analysis (KPIs and Charts) and Data Integration (Data Transformation).</li>
+            <li>Administer GIT repositories, implement branching methods, and configure user access restrictions.</li>
+            <li>Utilized Shell Scripts, Python, and JavaScript to automate the process of installing packages, setting up web servers, and configuring instances.</li>
+            <li>Involved in setting up JIRA as a defect-tracking system and configuring various workflows, customizations, and plugins for the JIRA bug/issue tracker.</li>
+        </ul>
 
         <p><strong>Cloud Engineer I</strong><br>
         <em>Yupptv Pvt Ltd, Hyderabad, Telangana, India</em><br>
-        November 2016 – September 2018<br>
-        Worked with Development teams to build Kubernetes clusters and develop pipelines for CI/CD to deploy containers on code committed to Kubernetes clusters. Experience in creating and launching EC2 instances using AMIs of Linux (Amazon, RHEL, CentOS, Ubuntu) using Terraform. Acquired working knowledge of cloud infrastructure and deployments in AWS through experience in tools including EC2, RDS, Lambda, S3, SNS, IAM, SQS, ELB, and CDK. Experience in building Docker images and storing them in Artifactory for use in Jenkins pipelines. Actively engaged in API testing for the YuppTv website, where I was involved in working on various tools to ensure the smooth functionality and reliability of the application's backend services. Creating tickets based on the template of the project, Filtering and Managing tickets, Checking the resolution or the status of the ticket, and assigning tickets to the groups in Service Desk Manager.</p>
+        November 2016 – September 2018</p>
+        <ul>
+            <li>Worked with Development teams to build Kubernetes clusters and develop pipelines for CI/CD to deploy containers on code committed to Kubernetes clusters.</li>
+            <li>Experience in creating and launching EC2 instances using AMIs of Linux (Amazon, RHEL, CentOS, Ubuntu) using Terraform.</li>
+            <li>Acquired working knowledge of cloud infrastructure and deployments in AWS through experience in tools including EC2, RDS, Lambda, S3, SNS, IAM, SQS, ELB, and CDK.</li>
+            <li>Experience in building Docker images and storing them in Artifactory for use in Jenkins pipelines.</li>
+            <li>Actively engaged in API testing for the YuppTv website, where I was involved in working on various tools to ensure the smooth functionality and reliability of the application's backend services.</li>
+            <li>Creating tickets based on the template of the project, Filtering and Managing tickets, Checking the resolution or the status of the ticket, and assigning tickets to the groups in Service Desk Manager.</li>
+        </ul>
 
         <h3>Technical Skills</h3>
-        <p>Languages/Software Tools: Python, SQL, NoSQL, HTML, Google Cloud Platform, OpenShift, Azure Monitor, SharePoint, Ansible, Ansible Tower, Terraform, Docker, Kubernetes, Jenkins, Git, GitLab, GitHub, Prometheus, Grafana, MySQL, PostgreSQL, Jira, VS Code, PyCharm.<br>
-        Scripting Languages/Cloud: Shell, Bash, AWS (EC2, AutoScaling, Lambda, RDS, S3, SNS, IAM, CloudWatch, ECS, EKS, SQS, ELB, CDK, Fargate), Azure (VMs, VMSS, Load Balancer, Application Gateway, VNET, Traffic Manager) Microsoft Windows Azure, Azure DevOps, Azure Active Directory, Microsoft Azure Storage, Azure SQL Database.<br>
-        Certifications: AWS Certified Cloud Practitioner</p>
+        <ul class="skills-list">
+            <li>Languages/Software Tools: Python, SQL, NoSQL, HTML, Google Cloud Platform, OpenShift, Azure Monitor, SharePoint, Ansible, Ansible Tower, Terraform, Docker, Kubernetes, Jenkins, Git, GitLab, GitHub, Prometheus, Grafana, MySQL, PostgreSQL, Jira, VS Code, PyCharm</li>
+            <li>Scripting Languages/Cloud: Shell, Bash, AWS (EC2, AutoScaling, Lambda, RDS, S3, SNS, IAM, CloudWatch, ECS, EKS, SQS, ELB, CDK, Fargate), Azure (VMs, VMSS, Load Balancer, Application Gateway, VNET, Traffic Manager) Microsoft Windows Azure, Azure DevOps, Azure Active Directory, Microsoft Azure Storage, Azure SQL Database</li>
+            <li>Certifications: AWS Certified Cloud Practitioner</li>
+        </ul>
     </section>
     <footer>
-        <p>Contact: <a href="mailto:pavanaditya00018@gmail.com">pavanaditya00018@gmail.com</a></p>
+        <!-- Removed contact line -->
     </footer>
 </body>
 </html>
